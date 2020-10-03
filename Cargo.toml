@@ -1,0 +1,17 @@
+[package]
+name = "flightsim_companion_plugin"
+version = "0.1.0"
+authors = ["sprhawk <465558+sprhawk@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+xplm = "0.3.1"
+xplm-sys = "0.4.0"
+
+thiserror = "1.0"
+
+[lib]
+crate-type = ["cdylib"]
+bench = false
